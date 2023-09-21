@@ -1,0 +1,14 @@
+//code for work cube
+
+#include <PRIZM.h>   //Linkup the library
+PRIZM harold;         //Declare object (reference to prizm)
+
+void setup(){
+   harold.setMotorPower(1,100); //100% speed
+   delay(2000);
+   harold.setMotorPower(1,125); //125 means BRAKE
+}
+void loop(){
+
+}
+
